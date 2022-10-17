@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root{
+    font-family: 'Roboto', sans-serif;
+}
 
 * {
     margin: 0px;
@@ -6,23 +11,28 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(Roboto);
+    background-color: antiquewhite;
 }
 
 header{
     text-align: center;
-    background-color: yellowgreen;
 }
 
 nav{
-    text-decoration: none;
-    background-color: aquamarine;
+    background-color: bisque;
+    font-size: 20px;
     display: flex;
     gap: 20px;
 }
 
+nav > a{
+    text-decoration: none;
+    color: blue;
+}
+
 main{
-    background-color: antiquewhite;
+    
 }
 
 article{
