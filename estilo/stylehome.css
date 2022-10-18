@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    width: 100vw;
+    height: 10vh;
+    font-family: var(Roboto);
+    background-image: url(../imagens/thumb-1920-936378.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.flexbox{
+    gap: 20px;
+    margin-top: 300px; 
+}
+.modal1{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+.modal2{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+.modal3{
+    width: 200px;
+    height: 200px;
+    background-color:  rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+.modal4{
+    width: 200px;
+    height: 200px;
+    background-color:  rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modal1:hover{
+    padding: 28px 30px;
+    background-image: url(../imagens/lol1.jpg);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    border-radius: 15px;
+    
+}
+
+.modal2:hover{
+    padding: 28px 30px;
+    background-image:  url(../imagens/l2.png);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    border-radius: 15px;
+}
+.modal3:hover{
+    padding: 28px 30px;
+    background-image:  url(../imagens/left);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    border-radius: 15px;
+}
+.modal4:hover{
+    padding: 28px 30px;
+    background-image: url(../imagens/phasmo.jpg);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    border-radius: 15px;
+}
