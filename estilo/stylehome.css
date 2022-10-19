@@ -12,40 +12,57 @@
 
 
 body{
-    width: 100vw;
-    height: 10vh;
+    
     font-family: var(Roboto);
-    background-image: url(../imagens/thumb-1920-936378.jpg);
+    background-image: url(../imagens/bda5be61177acdb5fd46c3219f8b81a0.jpg);
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
+    
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flexbox{
     gap: 20px;
-    margin-top: 300px; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: auto;
+    /* z-index: 9; */
 }
 .modal1{
-    width: 200px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.3);
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
 }
 .modal2{
-    width: 200px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.3);
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
 }
 .modal3{
-    width: 200px;
-    height: 200px;
-    background-color:  rgba(255, 255, 255, 0.3);
+    width: 250px;
+    height: 250px;
+    background-color:  rgba(255, 255, 255, 0.5);
     border-radius: 10px;
 }
 .modal4{
-    width: 200px;
-    height: 200px;
-    background-color:  rgba(255, 255, 255, 0.3);
+    width: 250px;
+    height: 250px;
+    background-color:  rgba(255, 255, 255, 0.5);
     border-radius: 10px;
 }
 
@@ -57,7 +74,10 @@ div{
 }
 
 .modal1:hover{
-    padding: 28px 30px;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(../imagens/lol1.jpg);
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
@@ -72,7 +92,10 @@ div{
 }
 
 .modal2:hover{
-    padding: 28px 30px;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image:  url(../imagens/l2.png);
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
@@ -85,7 +108,10 @@ div{
     border-radius: 15px;
 }
 .modal3:hover{
-    padding: 28px 30px;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image:  url(../imagens/left);
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
@@ -98,7 +124,10 @@ div{
     border-radius: 15px;
 }
 .modal4:hover{
-    padding: 28px 30px;
+   width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(../imagens/phasmo.jpg);
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
@@ -109,4 +138,33 @@ div{
     transition: all 200ms ease-in;
     transform: scale(1);
     border-radius: 15px;
+}
+
+.modal1:hover > p{
+    display: none;
+    text-decoration: none;
+}
+
+.modal2:hover > p{
+    display: none;
+    text-decoration: none;
+}
+
+.modal3:hover > p{
+    display: none;
+    text-decoration: none;
+}
+
+.modal4:hover > p{
+    display: none;
+    text-decoration: none;
+}
+
+p{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: blue;
+    justify-content: center;
 }
