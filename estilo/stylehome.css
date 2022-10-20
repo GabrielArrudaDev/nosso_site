@@ -12,12 +12,11 @@
 
 
 body{
-    
+    height: 100vh;
     font-family: var(Roboto);
     background-image: url(../imagens/thumb-1920-936378.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 a{
@@ -39,6 +38,8 @@ main{
     flex-wrap: wrap;
     width: 650px;
     margin: auto;
+    max-height: 100%;
+    overflow-y: overlay;
     /* z-index: 9; */
 }
 .modal1{
