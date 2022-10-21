@@ -11,6 +11,27 @@
     padding: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.to_up_2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: fixed;
+    left: 94%;
+    bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(95, 95, 95);
+    color: #fff;
+    border: 1px solid;
+    transition: all 0.5s ease-out;  
+}
+
 body{
     font-family: var(Roboto);
     background-color: rgb(40, 40, 40);
