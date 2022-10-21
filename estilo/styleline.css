@@ -30,6 +30,7 @@ html{
     color: #fff;
     border: 1px solid;
     transition: all 0.5s ease-out;  
+
 }
 
 body{
@@ -55,6 +56,11 @@ nav{
 nav>a{
     text-decoration: none;
     color: hsl(0, 0%, 70%);
+}
+
+.link1{
+    text-decoration: none;
+    color: #fff;
 }
 
 main{
