@@ -45,6 +45,16 @@ header{
     text-align: center;
 }
 
+#nav_main{
+    background-image:linear-gradient(to right ,hsl(48, 90%, 51%),hsl(0, 80%, 20%),#F2C512);
+    margin-bottom: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    width: 100%;
+}
+
 nav{
     background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
     font-size: larger;
@@ -57,11 +67,6 @@ nav{
 nav>a{
     text-decoration: none;
     color: hsl(0, 0%, 70%);
-}
-
-.home{
-    text-decoration: none;
-    color: #fff;
 }
 
 main{
