@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 :root{
-    color: #5D4030;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -56,12 +55,22 @@ main{
     color: black;
 }
 
-article{
-
+article>p{
+    font-size:25px;
 }
 
-aside{
+article>strong{
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    color: rgba(255, 0, 0);
+}
 
+aside>p{
+    font-size: 15px;
+    text-align: center;
+    font-style: oblique;
+    color: red;
 }
 
 footer{
