@@ -76,8 +76,7 @@ footer{
     color: rgb(230, 230, 230);
     padding-top: 10px;
     padding-bottom: 10px;
-    position: absolute;
-    width: 100%;
+   
     text-align: center;
     background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
 }

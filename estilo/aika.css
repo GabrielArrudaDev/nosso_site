@@ -23,7 +23,7 @@ header{
     text-align: center;
 }
 
-nav{
+#nav_main{
     background-image:linear-gradient(to right ,hsl(48, 90%, 51%),hsl(0, 80%, 20%),#F2C512);
     margin-bottom: 10px;
     font-size: larger;
@@ -31,7 +31,15 @@ nav{
     justify-content: center;
     gap: 35px;
     width: 100%;
-    color: hsl(0, 0%, 70%);
+}
+
+nav{
+    background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
 
 a{
@@ -56,6 +64,61 @@ main{
     color: black;
 }
 
+
+.class {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 20px;
+    color: #D1A700;
+}
+
+.class_sub_1{
+    font-size: 40px;
+    text-align: center;
+    color: #ff0000;
+}
+
+.class_sub_2{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #0000ff;
+}
+
+.class_sub_3{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: violet;
+}
+
+#class_sub_3{
+    text-align: center;
+    font-size: larger;
+}
+
+main > h2{
+    color: hsl(20, 70%, 30%);
+}
+
+img{
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-right: 10px;
+}
+div{
+    display: flex;
+    margin-left: 75%;
+}
+.p1{
+    text-align:left;
+    display: flex;
+    
+    
+}
+
 article{
 
 }
@@ -65,12 +128,17 @@ aside{
 }
 
 footer{
-    color: rgb(230, 230, 230);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
-    width: 100%;
-    text-align: center;
     background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;    
 }
+
+ul{
+    padding-left: 20px;
+}
+
+
+
 
