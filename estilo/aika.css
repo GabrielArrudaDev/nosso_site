@@ -74,7 +74,7 @@ main{
 }
 
 .cara1{
-    margin-top: 135px;
+    margin-left: 350px;
 }
 .cara2{
     margin-left: 350px;
@@ -83,7 +83,7 @@ main{
     margin-top: 90px;
 }
 .cara4{
-    margin-top: 110px;
+    margin-left: 350px;
 }
 .cara5{
     margin-top: 65px;
@@ -104,6 +104,19 @@ main{
 
 main>img{
     height: 340px;
+    width: 340px;
+    float: left;
+    margin-right: 10px;
+}
+
+.img_warrior{
+    height: 375px;
+    width: 340px;
+    float: left;
+    margin-right: 10px;
+}
+.img_pistol{
+    height: 400px;
     width: 340px;
     float: left;
     margin-right: 10px;
