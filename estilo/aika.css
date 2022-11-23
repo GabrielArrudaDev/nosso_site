@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 :root{
-    color: #5D4030;
+    --cor: #5D4030;
+    --cor1: #c3cbd1;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,23 +18,29 @@ body{
     background-color: rgb(40, 40, 40);
 }
 
-header{
-    font-size: 30px;
-    color: #F2C512;
-    text-align: center;
+header>h1{
+    padding-top: 5px;
+    color:  #e8cd79;
 }
 
-#nav_main{
-    background-image:linear-gradient(to right ,hsl(48, 90%, 51%),hsl(0, 80%, 20%),#F2C512);
-    margin-bottom: 10px;
+header{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color:hsl(0, 80%, 20%);
+    padding-bottom: 10px;
+}
+
+nav{
+    background-color: #92793E;
     font-size: larger;
     display: flex;
     justify-content: center;
     gap: 35px;
-    width: 100%;
+    padding: 2.5px 2.5px;
 }
 
-nav{
+#nav_class{
     background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
     font-size: larger;
     display: flex;
@@ -44,14 +51,16 @@ nav{
 
 a{
     text-decoration: none;
-    color: hsl(0, 0%, 70%);
+    color: var(--cor1);
 }
 
 a:hover{
     color: white;
+    text-decoration: underline;
 }
 
 main{
+    font-size: larger;
     margin: auto;
     padding: 10px;
     width: 80%;
@@ -64,60 +73,43 @@ main{
     color: black;
 }
 
-
-.class {
-    font-size: 50px;
-    text-align: center;
-    padding: 20px 20px;
-    color: #D1A700;
+.cara1{
+    margin-top: 135px;
+}
+.cara2{
+    margin-left: 350px;
+}
+.cara3{
+    margin-top: 90px;
+}
+.cara4{
+    margin-top: 110px;
+}
+.cara5{
+    margin-top: 65px;
+}
+.cara6{
+    margin-top: 65px;
 }
 
 .class_sub_1{
     font-size: 40px;
     text-align: center;
-    color: #ff0000;
-}
-
-.class_sub_2{
-    font-size: 40px;
-    text-align: center;
-    padding: 10px;
-    color: #0000ff;
-}
-
-.class_sub_3{
-    font-size: 40px;
-    text-align: center;
-    padding: 10px;
-    color: violet;
-}
-
-#class_sub_3{
-    text-align: center;
-    font-size: larger;
-}
-
-main > h2{
     color: hsl(20, 70%, 30%);
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
-img{
-    height: 350px;
-    width: 350px;
-    display: block;
-    margin: auto;
-    padding-right: 10px;
+
+
+main>img{
+    height: 340px;
+    width: 340px;
+    float: left;
+    margin-right: 10px;
 }
-div{
-    display: flex;
-    margin-left: 75%;
-}
-.p1{
-    text-align:left;
-    display: flex;
-    
-    
-}
+
+
 
 article{
 
