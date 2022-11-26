@@ -31,21 +31,49 @@ header{
     padding-bottom: 10px;
 }
 
-nav{
-    background-color: #92793E;
-    font-size: larger;
+.nav_class{
+    width: 100%;
+    background-color: #92793E;    
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 35px;
-    padding: 2.5px 2.5px;
+    align-items: center;
+   
 }
 
-#nav_class{
-    background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.nav_class ul{
+    list-style: none;    
+}
+.nav_class ul ul li:hover{
+    background-color: rgb(120, 64, 48);
+}
+
+.nav_class ul li{
+    background-color: #92793E;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav_class ul ul{
+    display: none;
+    margin: 0px;
+    
+}
+
+.nav_class ul li:hover>ul{
+    display: block;
+}
+
+.nav_class ul ul ul{
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;
+
 }
 
 a{
@@ -65,30 +93,34 @@ main{
     width: 80%;
     height: auto;
     background-color: rgb(230, 230, 230);
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    
     margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    color: black;
+    
 }
 
 .cara1{
-    margin-left: 350px;
+    padding-left: 370px;
 }
 .cara2{
-    margin-left: 350px;
+    padding-left: 370px;
+
 }
 .cara3{
-    margin-top: 90px;
+    padding-left: 20px;
+    
 }
 .cara4{
-    margin-left: 350px;
+    padding-left: 370px;
+
 }
 .cara5{
-    margin-top: 65px;
+    padding-left: 20px;
+
 }
+
 .cara6{
-    margin-top: 65px;
+    padding-left: 20px;
+
 }
 
 .class_sub_1{
@@ -109,15 +141,14 @@ main>img{
 }
 
 .img_warrior{
+    position: relative;
     height: 375px;
     width: 340px;
-    float: left;
     margin-right: 10px;
 }
 .img_pistol{
     height: 400px;
     width: 340px;
-    float: left;
     margin-right: 10px;
 }
 
@@ -139,9 +170,9 @@ footer{
     padding-bottom: 10px;    
 }
 
-ul{
-    padding-left: 20px;
-}
+
+    
+
 
 
 
