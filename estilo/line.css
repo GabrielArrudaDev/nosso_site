@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root{
+    color: #5D4030;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: justify;
+    font-family: var(Roboto);
+    background-color: rgb(40, 40, 40);
+}
+
+header{
+    font-size: 30px;
+    color: #F2C512;
+    text-align: center;
+}
+
+#nav_main{
+    background-image:linear-gradient(to right ,hsl(48, 90%, 51%),hsl(0, 80%, 20%),#F2C512);
+    margin-bottom: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    width: 100%;
+}
+
+nav{
+    background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 70%);
+}
+
+a:hover{
+    color: white;
+}
+
+main{
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+#img_dwarf{
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.class {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 20px;
+    color: #D1A700;
+}
+
+.class_sub_1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    color: #ff0000;
+}
+
+.class_sub_2{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #0000ff;
+}
+
+.class_sub_3{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: violet;
+}
+
+#class_sub_3{
+    text-align: center;
+    font-size: larger;
+}
+
+main > h2{
+    color: hsl(20, 70%, 30%);
+}
+
+main img{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+article{
+
+}
+
+aside{
+
+}
+
+footer{
+    color: rgb(230, 230, 230);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-image:linear-gradient(to right ,hsl(0, 80%, 20%),#92793E,hsl(0, 80%, 20%)) ;
+}
+
+
+
+
